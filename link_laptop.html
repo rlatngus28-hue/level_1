@@ -49,7 +49,7 @@
                         <a href="#" class="share"><img src="https://cdn-icons-png.flaticon.com/128/2311/2311524.png" alt="공유하기"></a>
                     </div>
                 </div>
-                <a href="#re" class="review"><!-- 바로가기링크 -->
+                <a href="#" class="review"><!-- 바로가기링크 -->
                     <div class="score"><!-- 별 이미지가 2개 이상있으니 그룹묶기 -->
                         <img src="https://cdn-icons-png.flaticon.com/128/1828/1828884.png" alt="">
                         <img src="https://cdn-icons-png.flaticon.com/128/1828/1828884.png" alt="">
@@ -67,38 +67,56 @@
                     <a href="#" class="discount_info"><img src="https://cdn-icons-png.flaticon.com/128/545/545674.png" alt="판매가격정보"></a>
                     <!-- 위 a태그 클릭 시 나오는 판매정보 -->
                     <div class="discount_info_open">상품등록일을 기준으로...</div>
-                </div>
+                    </div>
                 <!-- 2행(할인 후) -->
                 <div class="discount_g_btn">
                     <span class="discount_price"><em>1,679,000</em>원</span>
                     <img src="" alt="오늘출발">
                 </div>
-            </div><!-- e:price_group -->
+                </div><!-- e:price_group -->
             <!-- 혜택 -->
             <div class="benefit">
                 <h2>혜택</h2>
                 <div class="benefit_list">
-                    <p><am>1,679P</am>적립 (WELCOME 0.1% 적립)</p>
-                    <a href="#" class="benefit_g">월 279,833원 (6개월) 무이자할부</a><img src="" alt="무이자할부">
+                    <p><em>1,679P</em>적립 (WELCOME 0.1% 적립)</p>
+                    <a href="#" class="interest_free">월 279,833원 (6개월) 무이자할부</a>
+                    <!-- (위) 무이자할부 a 클릭시 실행되는 영역 -->
+                    <div class="intrerst_free_installment_open">
+                        <h3>무이자 할부</h3>
+                        <p>...</p>
+                    </div>
                 </div>
             </div>
             <!-- 배송 -->
             <div class="belivery">
                 <h2>배송</h2>
-                <div class="">
+                <div class="belivery_list">
                     <em>무료배송</em>
-                    <p>지금 주문시 내일 출발</p>
-                    <a href="#" class=""><img src="https://cdn-icons-png.flaticon.com/128/545/545674.png" alt="배송정보"></a>
+                    <span>16:00까지 결제 시
+                        <em>오늘 출발</em>
+                        <a href="#" class="today_info"><img src="https://cdn-icons-png.flaticon.com/128/545/545674.png" alt="오늘출발정보보기"></a>
+                        <!-- (위) a 클릭 시 실행되는 오늘 출발 정보 -->
+                        <span class="today_info_open">
+                            <em>판매자가 '오늘출발'을 약속한 상품입니다.</em>
+                        </span>
+                    </span>
                     <p>일반택배</p>
                     <p>제주도/도서산간 지역 8,000원</p>
                 </div>
             </div>
             <!-- 브랜드 -->
             <div class="brand_info">
-                <a href="#" class=""><img src="" alt="">
-                    <p><em>LG전자</em></p>
-                    <p>브랜드</p>
-                    <img src="" alt="">
+                <a href="#" class="brand_link"><!-- 브랜드바로가기 -->
+                    <p class="brand_logo"><img src="" alt="LG"></p>
+                    <div class="brand_name">
+                        <div class="brand">
+                            <em>LG전자</em><img src="" alt="">
+                        </div>
+                        <p>브랜드</p>
+                    </div>
+                </a>
+                <a href="#" class="brand_favorite"><!-- 브랜드관심등록 -->
+                    <img src="" alt="관심브랜드등록">
                 </a>
             </div>
             </div><!-- e:detail -->
